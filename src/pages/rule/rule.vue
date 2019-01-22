@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>app</h1>
-       rule
+        <h1>活动规则</h1>
+       活动规则
     </div>
 </template>
 

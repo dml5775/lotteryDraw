@@ -2,7 +2,7 @@ const utils=require('./utils/utils');
 module.exports = {
    //baseUrl: './',  // 配置基本url
    publicPath: process.env.NODE_ENV === 'production'
-    ? '/production-sub-path/'
+    ? './'
     : '/',
    // 输出文件目录
    outputDir: 'lucky',
@@ -22,5 +22,18 @@ module.exports = {
    		template:'src/pages/myAward/myAward.html',
    		filename:'myAward.html',
    	}
-   }
+   },
+   css: {   	      
+          loaderOptions: {
+            css: {},
+            postcss: {
+              plugins: [
+                require('autoprefixer'),                               
+                require('postcss-px2rem')({
+                  remUnit: 37.5
+                })
+             ]
+           }
+         }
+     }
 }

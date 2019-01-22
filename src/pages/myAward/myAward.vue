@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>index</h1>
-       myAward
+        <h1>我的奖品</h1>
+       我的奖品
     </div>
 </template>
 

@@ -2,9 +2,9 @@ module.exports={
 	pages:{
 		index:{
 			//page人入口
-			entry:'src/index/main.js',
+			entry:'src/index/index.js',
 			//模板来源
-			template:'public/index.html',
+			template:'src/index/index.html',
 			//在dist/index.html的输出
 			filename:'index.html',
 			//当使用title选项时,
