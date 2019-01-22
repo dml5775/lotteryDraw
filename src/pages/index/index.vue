@@ -118,12 +118,12 @@ export default {
             return Math.floor(Math.random() * 8)
         },
         doLot() {
-            var _this = this;
-            if (_this.AwardNum == 0) {
-                alert("您没有抽奖机会，请包月抽奖~");
-                return false
-            }
+            var _this = this;            
             if (_this.click_flag) {
+                if (_this.AwardNum == 0) {
+                    alert("您没有抽奖机会，请包月抽奖~");
+                    return false
+                }
                 _this.click_flag = false;
                 _this.lotIndex = _this.rndNum();
                 _this.AwardNum -= 1;

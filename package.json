@@ -1,6 +1,7 @@
 {
   "name": "vueLucky",
   "version": "0.1.0",
+  "author":"https://github.com/dml5775/lotteryDraw",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
