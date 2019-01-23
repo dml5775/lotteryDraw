@@ -1,5 +1,5 @@
 # vueLucky
-
+预览地址:https://dml5775.github.io/lotteryDraw/lucky/
 ## Project setup
 ```
 npm install
